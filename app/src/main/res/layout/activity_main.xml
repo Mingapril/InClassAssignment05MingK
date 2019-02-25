@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/input_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title" />
+
+        <EditText
+            android:id="@+id/input_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your message" />
+
+        <CheckBox
+            android:id="@+id/checkbox_send_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Only Send Title"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_send_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="send email"
+            android:onClick="sendEmail"/>
+
+        <Button
+            android:id="@+id/button_launch_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="launch activity"
+            android:onClick="launchActivity"/>
+
+        <Button
+            android:id="@+id/button_launch_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="launch camera"
+            android:onClick="launchCamera"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
