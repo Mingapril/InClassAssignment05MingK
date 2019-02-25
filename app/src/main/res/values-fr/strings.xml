@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lancer l\'activité-MingK</string>
+    <string name="send_title">Envoyer uniquement le titre</string>
+    <string name="send_email">envoyer un email</string>
+    <string name="launch_camera">lancer la caméra</string>
+    <string name="hint_title">Titre</string>
+    <string name="hint_enter_message">entrez votre message</string>
+    <string name="launch_activity">activité de lancement</string>
+</resources>

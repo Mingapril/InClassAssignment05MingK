@@ -13,8 +13,10 @@ public class NewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_new);
 
         Intent intent = getIntent();
-        // Capture the layout's TextView and set the string as its text
+
         TextView textView = findViewById(R.id.new_message);
-        textView.setText();
+        textView.setText(intent.getStringExtra("MESSAGE"));
+        setTitle(intent.getStringExtra("TITLE"));
+
     }
 }

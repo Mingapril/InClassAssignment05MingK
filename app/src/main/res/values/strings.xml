@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">InClassAssignment05-MingK</string>
+    <string name = "hint_title">Title</string>
+    <string name ="hint_enter_message">Enter your message</string>
+    <string name = "send_title">Only Send Title</string>
+    <string name ="send_email">send email</string>
+    <string name ="launch_camera">launch camera</string>
+    <string name="launch_activity">launch activity</string>
 </resources>
